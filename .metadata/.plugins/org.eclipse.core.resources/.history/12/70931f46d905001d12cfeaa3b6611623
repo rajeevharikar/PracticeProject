@@ -1,0 +1,19 @@
+package javaarraysandstring;
+
+public class RemoveVowelsFromString {
+	
+	public static void main(String[] args) {
+		String S="welcome to geeksforgeeks";
+	       // code here
+	       StringBuilder str=new StringBuilder();
+	       for(int i=0; i<S.length(); i++){
+	    	   System.out.println(S.charAt(i));
+	           if(S.charAt(i)=='a' || S.charAt(i)=='e'||S.charAt(i)=='i'||S.charAt(i)=='o'||S.charAt(i)=='u'){
+	               continue;
+	           }
+	           str.append(S.charAt(i));
+	       }
+	       System.out.println(str);
+	   }
+
+}

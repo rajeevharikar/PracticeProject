@@ -1,0 +1,19 @@
+package StringsPrograms;
+
+public class Combine2StringsAndReverse {
+	
+	public static void main(String[] args) {
+		String s="ckjkUUYII";
+		int count=0;
+        int i=0;
+       while(i<s.length()){
+    	   
+           if((int)s.charAt(i)>=65 && (int)s.charAt(i)<=96){
+               count++;
+           }
+           i++;
+       }
+       System.out.println(count);
+	}
+
+}

@@ -1,0 +1,25 @@
+package StringsPrograms;
+
+public class RemoveWhiteSpaces {
+	
+	public static void main(String[] args) {
+
+		    String S="geek for geeks";
+		    char[] ch=S.toCharArray();
+		
+		    String str=""; 
+	        for(int i=0;i<ch.length;i++){
+	           
+	        	System.out.println(ch[i]!=' ');
+//	           if((ch[i] !=' ') && (ch[i] !='\t') );
+	        	
+	        	if(S.charAt(i) !=' ')
+	           {
+	               str=str+ ch[i];
+	               System.out.println(str);
+	           }
+	        } 
+	        System.out.println(str);
+	    }
+
+}

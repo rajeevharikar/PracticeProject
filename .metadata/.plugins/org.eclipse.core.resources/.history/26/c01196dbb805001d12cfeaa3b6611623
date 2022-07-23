@@ -1,0 +1,20 @@
+package StringsPrograms;
+
+public class ConvertFirstLettertoUpperCase {
+	
+	public static void main(String[] args) {
+		String s="ckjkUUYII";
+		s.
+		int count=0;
+        int i=0;
+       while(i<s.length()){
+    	   
+           if((int)s.charAt(i)>=65 && (int)s.charAt(i)<=96){
+               count++;
+           }
+           i++;
+       }
+       System.out.println(count);
+	}
+
+}

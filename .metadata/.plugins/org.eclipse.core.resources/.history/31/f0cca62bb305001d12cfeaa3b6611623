@@ -1,0 +1,19 @@
+package StringsPrograms;
+
+public class Combine2StringsAndReverse {
+	
+	public static void main(String[] args) {
+		String s="ckjkUUYII";
+		int count=0;
+        int i=0;
+       while(i<s.length()){
+    	  System.out.println(s.charAt(i)>='A');
+           if(s.charAt(i)>='A' && s.charAt(i)<='Z'){
+               count++;
+           }
+           i++;
+       }
+       System.out.println(count);
+	}
+
+}
