@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9012" started-at="2022-04-23T14:14:54Z" finished-at="2022-04-23T14:15:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9012" started-at="2022-04-23T14:14:54Z" finished-at="2022-04-23T14:15:03Z">
+      <class name="tests.DragAndDropAndPageScroll">
+        <test-method status="PASS" signature="browserinitialize()[pri:0, instance:tests.DragAndDropAndPageScroll@527740a2]" name="browserinitialize" is-config="true" duration-ms="2208" started-at="2022-04-23T14:14:54Z" finished-at="2022-04-23T14:14:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserinitialize -->
+        <test-method status="PASS" signature="ScrollIntoTheView()[pri:0, instance:tests.DragAndDropAndPageScroll@527740a2]" name="ScrollIntoTheView" duration-ms="6786" started-at="2022-04-23T14:14:56Z" finished-at="2022-04-23T14:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScrollIntoTheView -->
+      </class> <!-- tests.DragAndDropAndPageScroll -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
